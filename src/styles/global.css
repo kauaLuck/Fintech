@@ -9,9 +9,9 @@
 /* Variaveis css */
 :root{
     /*--- CORES ----*/  
-    --color-primary : #9130F4 
-    --color-secondary : #121139
-    --color-neutral-white : #f4f4f4
+    --color-primary : #9130F4; 
+    --color-secondary : #121139;
+    --color-neutral-white : #f4f4f4;
 
     /*--- FONTES ---*/
      /* SIZE */
@@ -27,7 +27,7 @@
     /* --weight-- */
       --fonte-weight-h1 : 700; /*variavel espessura da fonte*/
     --fonte-weight-h2 : 700; /*variavel espessura da fonte*/
-    --fonte-weight-h3 : 700; /*variavel espessura da fonte*/
+    --fonte-weight-h3 : 500; /*variavel espessura da fonte*/
     --fonte-weight-h4 : 500; /*variavel espessura da fonte*/
     --fonte-weight-h5 : 500; /*variavel espessura da fonte*/
 
