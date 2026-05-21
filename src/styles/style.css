@@ -1,0 +1,96 @@
+@import url("./global.css");
+
+header{
+    display: flex;/*'Para que o grupo fique ao lado do outro '*/
+    justify-content: space-around; /*Colocar nas extremidades */
+    align-items: center; /* Centralizar na vertical*/
+    padding: 50px; /* Espacamento interno*/
+    background-color: var(--color-secondary );
+    border-bottom: 0.7px solid var(--color-primary)
+}
+
+.container-empresa{
+    display: flex;
+    align-items: center;
+    gap: 14.5px;
+    font-family: var(--fonte-family-primary );
+    color: var(--color-neutral-white );
+}
+
+.navigation-header ul {
+    display: flex;
+    gap: 45px;
+   list-style: none;
+}
+
+.navigation-header ul li a{
+     text-decoration: none;
+    color: var(--color-neutral-white);
+    font-family: var(--fonte-family-primary);
+}
+
+.btn-header{
+    font-family: var(--fonte-family-primary);
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-neutral-white);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: var( --fonte-size-button );
+    font-weight: var( --fonte-weight-button);
+}
+.main-content{
+   display: flex; /* Para que o grupo fica ao lado do outro*/
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Espacamento de grupos*/
+    background-color: var(--color-secondary); /* Cor do fundo da página*/
+    padding: 50px 0;
+}
+
+.main-content h1{
+    font-size: var(--fonte-size-h1);
+    font-family: var(--fonte-family-primary);
+    color: var(--color-neutral-white);
+    
+
+}
+
+.main-content h1 span{
+    color: var(--color-primary);
+    display: block;
+}
+
+.main-content p{
+    font-family: var(--fonte-family-primary);/* Altera a fonte*/
+    color: var(--color-neutral-white); /*altera a cor do textp*/
+    line-height: 30px; /* Distância entre as linhas*/
+}
+
+.text-container{
+     display: flex;
+    flex-direction: column;
+     gap: 25px;
+    font-family: var(--fonte-family-primary);
+    font-size: var(--fonte-size-body );
+    max-width: 500px;
+}
+
+
+.text-container p{
+    font-size: 24px;
+    line-height: 38px;
+    color: var(--color-neutral-white);
+}
+
+.btn-primary{
+    width: fit-content;
+    padding: 15px 35px;
+    border: 2px solid var(--color-primary);
+    border-radius: 12px;
+    color: var(--color-neutral-white);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.3s;
+}
