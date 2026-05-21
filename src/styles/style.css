@@ -52,15 +52,45 @@ header{
     font-size: var(--fonte-size-h1);
     font-family: var(--fonte-family-primary);
     color: var(--color-neutral-white);
+    
 
 }
 
 .main-content h1 span{
     color: var(--color-primary);
+    display: block;
 }
 
 .main-content p{
     font-family: var(--fonte-family-primary);/* Altera a fonte*/
     color: var(--color-neutral-white); /*altera a cor do textp*/
     line-height: 30px; /* Distância entre as linhas*/
+}
+
+.text-container{
+     display: flex;
+    flex-direction: column;
+     gap: 25px;
+    font-family: var(--fonte-family-primary);
+    font-size: var(--fonte-size-body );
+    max-width: 500px;
+}
+
+
+.text-container p{
+    font-size: 24px;
+    line-height: 38px;
+    color: var(--color-neutral-white);
+}
+
+.btn-primary{
+    width: fit-content;
+    padding: 15px 35px;
+    border: 2px solid var(--color-primary);
+    border-radius: 12px;
+    color: var(--color-neutral-white);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    transition: 0.3s;
 }
