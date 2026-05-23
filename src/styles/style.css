@@ -72,13 +72,13 @@ header{
     flex-direction: column;
      gap: 25px;
     font-family: var(--fonte-family-primary);
-    font-size: var(--fonte-size-body );
+
     max-width: 500px;
 }
 
 
 .text-container p{
-    font-size: 24px;
+    font-size: var(--fonte-size-h5);
     line-height: 38px;
     color: var(--color-neutral-white);
 }
@@ -93,4 +93,46 @@ header{
     font-size: 24px;
     font-weight: bold;
     transition: 0.3s;
+}
+/*       SECTION*/
+
+ .section-container{  
+    display: flex; /* Para que o grupo fica ao lado do outro*/
+    justify-content: center;
+    align-items: center;
+    gap: 100px; /* Espacamento de grupos*/
+    background-color: var(--color-neutral-white); /* Cor do fundo da página*/
+    padding: 60px 0;
+    box-sizing: border-box;
+}
+
+.section-container h1{
+    font-size: var(--fonte-size-h1);
+    font-family: var(--fonte-family-primary);
+    color: var(--color-secondary);
+    
+
+}
+
+.section-container h1 span{
+    color: var(--color-primary);
+    display: block;
+}
+
+.section-container p{
+    font-family: var(--fonte-family-primary);/* Altera a fonte*/
+    color: var(--color-secondary); /*altera a cor do textp*/
+    font-size: var(--fonte-size-body); /* Tamanho padrão de leitura confortável */
+    font-weight: var(--fonte-weight-body);
+    line-height: 1.6; /* Aumenta o espaço ENTRE as linhas de um mesmo parágrafo */
+    margin-bottom: 30px; /* Cria o espaçamento ENTRE os blocos de parágrafo */
+    opacity: 0.9; /* Deixa o texto levemente mais suave, combinando com o design */
+}
+
+.text-container {
+    font-weight: var(--fonte-weight-h3);/* Força o texto a quebrar linha no lugar certo como no design */
+}
+
+.text-container p{
+    letter-spacing: 0.5px;
 }
