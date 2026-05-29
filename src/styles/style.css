@@ -26,7 +26,7 @@ header{
 .navigation-header ul li a{
      text-decoration: none;
     color: var(--color-neutral-white);
-    font-family: var(--fonte-family-primary);
+    font-size: var(--fonte-size-body);
 }
 
 .btn-header{
@@ -34,11 +34,12 @@ header{
     text-decoration: none;
     background-color: var(--color-primary);
     color: var(--color-neutral-white);
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 10px 25px;
+    border-radius: 12px;
     font-size: var( --fonte-size-button );
     font-weight: var( --fonte-weight-button);
 }
+
 .main-content{
    display: flex; /* Para que o grupo fica ao lado do outro*/
     justify-content: center;
@@ -52,7 +53,6 @@ header{
     font-size: var(--fonte-size-h1);
     font-family: var(--fonte-family-primary);
     color: var(--color-neutral-white);
-    
 
 }
 
@@ -62,9 +62,14 @@ header{
 }
 
 .main-content p{
-    font-family: var(--fonte-family-primary);/* Altera a fonte*/
+    font-size: var(--fonte-size-body);/* Altera a fonte*/
     color: var(--color-neutral-white); /*altera a cor do textp*/
-    line-height: 30px; /* Distância entre as linhas*/
+    line-height: 1.6; /* Distância entre as linhas*/
+    font-weight: var(--fonte-weight-body);
+}
+
+.main-content img{
+    width: 650px;
 }
 
 .text-container{
@@ -73,14 +78,15 @@ header{
      gap: 25px;
     font-family: var(--fonte-family-primary);
 
-    max-width: 500px;
+    max-width: 620px;
 }
 
 
 .text-container p{
     font-size: var(--fonte-size-h5);
-    line-height: 38px;
+    line-height: 36px;
     color: var(--color-neutral-white);
+    opacity: 0.9;
 }
 
 .btn-primary{
@@ -135,4 +141,57 @@ header{
 
 .text-container p{
     letter-spacing: 0.5px;
+}
+
+/*--------------------SECTION GROWTH ----------------*/
+
+.growth-section{
+    background-color: var(--color-secondary);
+    padding: 120px 20px;
+    border-bottom: 0.7px solid var(--color-neutral-white)
+}
+
+.growth-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.crescimento-container{
+    text-align: center;
+    max-width: 800px;
+}
+
+.crescimento-container h2{
+    font-size: var(--fonte-size-h2);
+    font-weight: 700;
+    line-height: 1.1;
+
+    color: var(--color-neutral-white);
+    margin-bottom: 20px;
+}
+
+.crescimento-container span{
+    color: var(--color-primary);
+}
+
+.crescimento-container p{
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--color-neutral-white);
+}
+
+.growth-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.growth-image img{
+    width: 100%;
+    max-width: 900px;
+    display: block;
 }
