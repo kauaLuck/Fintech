@@ -5,6 +5,7 @@
     margin: 0; /*--- Distância externa -> zeramos---*/
     padding: 0; /*---espacamento interno -> zerado---*/
     box-sizing: border-box;
+    
 }
 /* Variaveis css */
 :root{
@@ -12,6 +13,7 @@
     --color-primary : #9130F4; 
     --color-secondary : #121139;
     --color-neutral-white : #f4f4f4;
+    
 
     /*--- FONTES ---*/
      /* SIZE */
