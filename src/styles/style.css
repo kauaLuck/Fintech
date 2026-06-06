@@ -313,15 +313,58 @@ footer {
     filter: brightness(1.1); /* Dá uma leve clareada no roxo para efeito de feedback */
 }
 
-/* --- Responsividade Básica --- */
-@media (max-width: 768px) {
-    footer {
-        padding: 40px 20px;
-        flex-direction: column;
-        gap: 40px;
+@media (max-width: 884px){
+    .main-container{
+        flex-direction: column-reverse;
     }
-    
-    .footer-newsletter {
-        max-width: 100%;
+
+     main-img {
+        width: 400px;
+    }
+
+    .main-container {
+        text-align: center;
+    }
+
+    .btn-primary{
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .section-container{
+        flex-direction: column;
     }
 }
+
+@media (max-width: 480px){
+    .navigation-header{
+        display: none;
+    }
+
+    .main-container img{
+        width: 450px;
+    }
+
+    .main-container h1{
+        
+        width: 400px;
+        margin: 0 auto;
+    }
+
+    .main-container p{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+     .text-container h1{
+        width: 300px;
+        margin: 0 auto;
+     }
+
+     .text-container p{
+        width: 400px;
+        margin: 0 auto;
+     }
+}
+
+
